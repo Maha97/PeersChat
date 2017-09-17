@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/text_view_recipient_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/recipient_rounded_corners"
+        android:backgroundTint="@color/icons"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="#727272"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Hi.Its Me" />
+
+
+</RelativeLayout>
